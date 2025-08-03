@@ -200,7 +200,7 @@ graph TB
 
 ```bash
 # 克隆项目
-git clone https://github.com/your-username/appium-mcp.git
+git clone https://github.com/1405942836/appium-mcp.git
 cd appium-mcp
 
 # 安装开发依赖
@@ -220,8 +220,8 @@ pytest
 ## 🆘 获取帮助
 
 - 📖 查看 [文档](docs/README.md)
-- 🐛 提交 [Issue](https://github.com/your-username/appium-mcp/issues)
-- 💬 参与 [讨论](https://github.com/your-username/appium-mcp/discussions)
+- 🐛 提交 [Issue](https://github.com/1405942836/appium-mcp/issues)
+- 💬 参与 [讨论](https://github.com/1405942836/appium-mcp/discussions)
 - 📧 联系维护者
 
 ## 🙏 致谢

@@ -13,7 +13,7 @@
 在开始贡献之前，请确保您已经：
 
 1. 阅读了项目的 [README.md](README.md)
-2. 查看了现有的 [Issues](https://github.com/your-repo/appium-mcp/issues) 和 [Pull Requests](https://github.com/your-repo/appium-mcp/pulls)
+2. 查看了现有的 [Issues](https://github.com/1405942836/appium-mcp/issues) 和 [Pull Requests](https://github.com/1405942836/appium-mcp/pulls)
 3. 了解了项目的 [行为准则](#行为准则)
 
 ## 开发环境设置
@@ -26,7 +26,7 @@ git clone https://github.com/your-username/appium-mcp.git
 cd appium-mcp
 
 # 添加上游仓库
-git remote add upstream https://github.com/your-repo/appium-mcp.git
+git remote add upstream https://github.com/1405942836/appium-mcp.git
 ```
 
 ### 2. 安装依赖
@@ -223,8 +223,8 @@ docs/
 如果您需要帮助或有疑问：
 
 - 📖 查看 [文档](docs/README.md)
-- 🐛 搜索或创建 [Issue](https://github.com/your-repo/appium-mcp/issues)
-- 💬 参与 [讨论](https://github.com/your-repo/appium-mcp/discussions)
+- 🐛 搜索或创建 [Issue](https://github.com/1405942836/appium-mcp/issues)
+- 💬 参与 [讨论](https://github.com/1405942836/appium-mcp/discussions)
 - 📧 联系维护者
 
 ## 致谢

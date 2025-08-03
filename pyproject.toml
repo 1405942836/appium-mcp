@@ -60,10 +60,10 @@ security = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/your-username/appium-mcp"
-Documentation = "https://github.com/your-username/appium-mcp/tree/main/docs"
-Repository = "https://github.com/your-username/appium-mcp.git"
-Issues = "https://github.com/your-username/appium-mcp/issues"
+Homepage = "https://github.com/1405942836/appium-mcp"
+Documentation = "https://github.com/1405942836/appium-mcp/tree/main/docs"
+Repository = "https://github.com/1405942836/appium-mcp.git"
+Issues = "https://github.com/1405942836/appium-mcp/issues"
 
 [project.scripts]
 appium-mcp-server = "appium_mcp.cli:main"
