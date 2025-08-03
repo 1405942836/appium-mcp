@@ -163,7 +163,10 @@ cython_debug/
 .vscode/
 
 # Appium specific
-screenshots/
+# screenshots/ - 保留测试截图用于文档展示
+# 只忽略临时截图文件
+screenshots/temp_*
+screenshots/*.tmp
 recordings/
 logs/
 temp/
