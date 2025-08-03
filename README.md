@@ -114,6 +114,7 @@ appium --version              # 应该显示 Appium 版本
 - [🛠️ 工具参考](docs/tools/README.md)
 - [📝 使用示例](docs/examples/README.md)
 - [🏗️ 架构设计](docs/architecture.md)
+- [🛠️ 工具使用指南](docs/appium-mcp-tools-guide.md)
 
 ## 🎯 使用场景
 
