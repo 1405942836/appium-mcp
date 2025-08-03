@@ -1,0 +1,103 @@
+server:
+  host: localhost
+  port: 4723
+  timeout: 30
+  new_command_timeout: 60
+  max_connections: 50
+  connection_pool_size: 10
+  allow_cors: true
+  allowed_origins:
+    - "*"
+
+android:
+  platform_name: Android
+  automation_name: UiAutomator2
+  device_name: Android Device
+  implicit_wait: 10
+  explicit_wait: 30
+  no_reset: false
+  full_reset: false
+  skip_server_installation: true
+  skip_device_initialization: false
+  chrome_driver_executable: null
+  chrome_options:
+    - "--no-sandbox"
+    - "--disable-dev-shm-usage"
+
+ios:
+  platform_name: iOS
+  automation_name: XCUITest
+  device_name: iPhone Simulator
+  implicit_wait: 10
+  explicit_wait: 30
+  no_reset: false
+  full_reset: false
+  use_new_wda: true
+  wda_local_port: 8100
+  wda_startup_retries: 2
+  wda_startup_retry_interval: 20000
+  xcode_org_id: null
+  xcode_signing_id: null
+  updated_wda_bundle_id: null
+
+logging:
+  level: INFO
+  console: true
+  file: appium-mcp.log
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  max_file_size: 10MB
+  backup_count: 5
+  structured: true
+  json_format: false
+
+features:
+  auto_screenshot: true
+  screenshot_on_error: true
+  screenshot_format: png
+  element_highlight: true
+  highlight_color: "#FF0000"
+  highlight_duration: 1000
+  performance_logging: true
+  performance_metrics:
+    - cpu
+    - memory
+    - network
+    - battery
+  screen_recording: true
+  recording_format: mp4
+  recording_quality: medium
+  auto_detect_devices: true
+  device_health_check: true
+  health_check_interval: 30
+
+tools:
+  enabled:
+    - device_management
+    - ui_automation
+    - app_control
+    - system_operations
+    - file_operations
+  timeouts:
+    click_element: 5
+    find_element: 10
+    input_text: 10
+    screenshot: 15
+    file_transfer: 60
+  retries:
+    max_attempts: 3
+    retry_delay: 1
+    exponential_backoff: true
+
+resources:
+  cache:
+    enabled: true
+    max_size: 100
+    ttl: 300
+  storage:
+    screenshots_dir: ./screenshots
+    recordings_dir: ./recordings
+    logs_dir: ./logs
+    temp_dir: ./temp
+    auto_cleanup: true
+    cleanup_interval: 3600
+    max_age: 86400
